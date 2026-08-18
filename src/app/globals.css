@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --white: #ffffff;
+
+  --heading: #111827;
+  --text: #6b7280;
+  --text-muted: #9ca3af;
+
+  --purple: #7c3aed;
+  --purple-dark: #4c1d95;
+  --purple-light: #a78bfa;
+  --purple-soft: #c4b5fd;
+  --purple-pale: #ddd6fe;
+  --purple-extralight: #f2f0ff;
+
+  --indigo: #312e81;
+
+  --blue: #60a5fa;
+  --blue-dark: #1d4ed8;
+  --blue-soft: #eff6ff;
+
+  --green: #34d399;
+  --green-dark: #047857;
+  --green-soft: #ecfdf5;
+
+  --yellow: #fbbf24;
+
+  --border: #e5e7eb;
+  --gray-soft: #f3f4f6;
+  --gray-dark: #424a58;
+
+  --dark: #111827;
+  --darkest: #0b1120;
+  --dark-card: #1f2937;
+
+  --gradient-hero: linear-gradient(
+    135deg,
+    #111827 0%,
+    #312e81 55%,
+    #7c3aed 100%
+  );
+
+  --gradient-card: linear-gradient(135deg, #ffffff 0%, #f5f3ff 100%);
+
+  --font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--heading);
+  font-family: var(--font-family);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hero-gradient {
+  background: var(--gradient-hero);
+}
